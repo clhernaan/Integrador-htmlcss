@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;600;700;800;900&display=swap");
+
+:root {
+  --background: #02050e;
+  --primary: #1e50ff;
+  --secondary: #272d37;
+  --btn-lg: #050d26;
+  --bg-azul-10: #e9eeff;
+  --bg-white: #fff;
+  --bg-electric: #f0fbff;
+  --nav-bg: #0f1525;
+
+  --text-gray: #adb9c7;
+  --text-white: #f3f4f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: #120e296e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  gap: 300px;
+}
+
+img {
+  border-radius: 2rem;
+  grid-row: auto;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  gap: 8rem;
+}
+
+.navbar-list {
+  gap: 6rem;
+}
+/* colores del nav*/
+.navbar-list a {
+  color: white;
+  font-size: 15px;
+}
+
+main {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+#hero {
+  max-width: 1000px;
+
+  margin-top: 65px;
+  padding: 40px 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 60%;
+}
+
+.hero__info p {
+  font-size: 14px;
+  width: 70%;
+  color: white;
+}
+
+.hero__info h1 {
+  font-size: 50px;
+  font-weight: 600;
+  width: 80%;
+  min-width: 500px;
+  background-color: #536e706f;
+  border-radius: 1rem;
+}
+
+.hero__info a {
+  color: var(--text-white);
+  background: #1f1f4ad2;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.hero-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.about-text {
+  cursor: pointer;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+  padding: 20px 50px;
+  gap: 20px;
+  font-size: small;
+}
+
+.container {
+  margin: auto;
+  cursor: pointer;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: center;
+  flex-wrap: wrap;
+  font-size: small;
+  cursor: pointer;
+}
+/*seccion de cometarios*/
+#about {
+  width: 500px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: #35424785;
+  border-radius: 1rem;
+  float: right;
+  margin: 100px;
+  cursor: pointer;
+}
+
+#Cartas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+}
+.card-uno {
+  display: flex;
+  cursor: pointer;
+  border-radius: 15px;
+  box-sizing: border-box;
+
+  height: 300px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url(/img/lampara.jpeg);
+
+  float: left;
+  margin: 10px;
+  transition: margin 0.1s ease-out;
+}
+
+.card-dos {
+  display: flex;
+  cursor: pointer;
+  border-radius: 15px;
+
+  height: 300px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url(/img/lamparados.jpeg);
+
+  float: left;
+  margin: 10px;
+  transition: margin 0.1s ease-out;
+}
+
+.card-tres {
+  display: flex;
+  cursor: pointer;
+  border-radius: 15px;
+
+  height: 300px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url(/img/sillon.jpeg);
+
+  float: left;
+  margin: 10px;
+  transition: margin 0.1s ease-out;
+}
+
+.card-cuatro {
+  display: flex;
+  cursor: pointer;
+  border-radius: 15px;
+
+  height: 300px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url(/img/mesas.jpeg);
+
+  float: left;
+  margin: 10px;
+  transition: margin 0.1s ease-out;
+}
+
+.card-uno:hover {
+  margin-top: 4px;
+}
+
+.card-dos:hover {
+  margin-top: 4px;
+}
+
+.card-tres:hover {
+  margin-top: 4px;
+}
+
+.card-cuatro:hover {
+  margin-top: 4px;
+}
