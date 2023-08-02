@@ -50,7 +50,9 @@ header img {
 #menu-hamburg {
   display: none;
 }
-
+.combo {
+  display: none;
+}
 .navbar,
 .navbar-list {
   display: flex;
