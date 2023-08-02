@@ -26,19 +26,29 @@
 header {
   background: #120e296e;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0 30px;
   height: 65px;
   position: fixed;
+  top: 0;
   width: 100%;
-  gap: 300px;
 }
 /* Responsive*/
 
-img {
+header img {
   border-radius: 2rem;
   grid-row: auto;
+
+  height: 60px;
+}
+
+.label-menu {
+  display: none;
+}
+
+#menu-hamburg {
+  display: none;
 }
 
 .navbar,
@@ -46,10 +56,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.navbar {
-  gap: 8rem;
 }
 
 .navbar-list {
@@ -150,6 +156,7 @@ main {
   font-size: small;
   cursor: pointer;
 }
+
 /*seccion de cometarios*/
 #about {
   width: 500px;
