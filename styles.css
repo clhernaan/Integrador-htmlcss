@@ -173,7 +173,7 @@ main {
   cursor: pointer;
 }
 
-#Cartas {
+#Cartas-eco {
   display: flex;
   justify-content: center;
   align-items: center;
