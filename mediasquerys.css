@@ -4,14 +4,14 @@
   }
   .label-menu i {
     font-size: 40px;
-    color: rgb(234, 234, 240);
+    color: rgb(255, 255, 255);
   }
   .navbar {
     display: none;
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(187, 157, 157, 0.993);
+    background-color: rgba(72, 70, 70, 0.993);
     height: 100%;
     width: 100vw;
   }
@@ -30,22 +30,24 @@
     display: flex;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 424px) {
   #Cartas-eco {
     display: flex;
     flex-flow: wrap;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 424px) {
   .main {
     display: flex;
     flex-flow: wrap;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 424px) {
   #about {
-    display: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
