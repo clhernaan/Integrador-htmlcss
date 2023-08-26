@@ -51,3 +51,25 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 424px) {
+  .about-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 424px) {
+  #footer {
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media (max-width: 424px) {
+  .hero_info a {
+    display: flex;
+    justify-content: center;
+  }
+}

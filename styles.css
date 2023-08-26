@@ -34,7 +34,7 @@ header {
   top: 0;
   width: 100%;
 }
-/* Responsive*/
+/* Menu*/
 
 header img {
   border-radius: 2rem;
@@ -116,7 +116,7 @@ main {
 .hero__info a {
   color: var(--text-white);
   background: #1f1f4ad2;
-  padding: 8px 12px;
+  padding: 5px 10px;
   border-radius: 5px;
 }
 
@@ -328,4 +328,9 @@ main {
   padding: 10px 0;
   cursor: pointer;
   font-size: 10px;
+}
+
+.developer {
+  display: flex;
+  align-items: center;
 }
