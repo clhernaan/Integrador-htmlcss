@@ -30,21 +30,21 @@
     display: flex;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 414px) {
   #Cartas-eco {
     display: flex;
     flex-flow: wrap;
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 414px) {
   .main {
     display: flex;
     flex-flow: wrap;
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 414px) {
   #about {
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 414px) {
   .about-text {
     display: flex;
     justify-content: center;
@@ -60,14 +60,14 @@
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 414px) {
   #footer {
     justify-content: center;
     align-content: center;
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 414px) {
   .hero_info a {
     display: flex;
     justify-content: center;
