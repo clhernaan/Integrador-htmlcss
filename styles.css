@@ -22,8 +22,10 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-  overflow: auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -36,6 +38,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 /* Menu*/
 
