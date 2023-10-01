@@ -74,7 +74,9 @@ header img {
   color: white;
   font-size: 15px;
 }
-main {
+
+main,
+article {
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
